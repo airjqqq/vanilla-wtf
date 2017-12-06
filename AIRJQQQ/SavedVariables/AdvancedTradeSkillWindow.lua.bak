@@ -1,0 +1,36 @@
+
+atsw_orderby = {
+}
+atsw_bankitemlist = {
+}
+atsw_merchantlist = {
+}
+atsw_itemlist = {
+	["Lightbringer"] = {
+		["Airect"] = {
+			["Refreshing Spring Water"] = 2,
+			["Tough Jerky"] = 5,
+			["Broken Fang"] = 3,
+			["Ruined Pelt"] = 5,
+			["Hearthstone"] = 1,
+			["Chipped Claw"] = 4,
+			["Melted Candle"] = 4,
+			["Worn Shortsword"] = 1,
+		},
+	},
+}
+atsw_considerbank = false
+atsw_consideralts = false
+atsw_considermerchants = false
+atsw_autobuy = false
+atsw_multicount = true
+atsw_recipetooltip = true
+atsw_customsorting = {
+}
+atsw_customheaders = {
+}
+atsw_displayshoppinglist = true
+atsw_disabled = {
+}
+atsw_savedqueue = {
+}

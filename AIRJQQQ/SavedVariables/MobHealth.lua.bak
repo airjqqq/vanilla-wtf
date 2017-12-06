@@ -1,0 +1,11 @@
+
+MobHealth3DB = {
+}
+MobHealth3Config = {
+	["stableMax"] = false,
+	["saveData"] = true,
+	["precision"] = 10,
+}
+MobHealthDB = {
+	["thisIsADummyTable"] = true,
+}

@@ -1,0 +1,63 @@
+
+QuestHistory_List = {
+	["Lightbringer"] = {
+		["Airect"] = {
+			[1] = {
+				["tl"] = "00:00:46:47",
+				["c"] = "Northshire Valley",
+				["t"] = "Investigate Echo Ridge",
+				["ll"] = 3,
+				["os"] = {
+					[1] = {
+						["t"] = "Kobold Worker slain: 4/10",
+					},
+				},
+				["m"] = 40,
+				["l"] = 3,
+				["o"] = "Kill 10 Kobold Workers, then report back to Marshal McBride.",
+				["d"] = "Airect, my scouts tell me that the kobold infestation is larger than we had thought.  A group of kobold workers has camped near the Echo Ridge Mine to the north.\n\nGo to the mine and remove them.  We know there are at least 10.  Kill them, see if there are more, then report back to me.",
+			},
+			[2] = {
+				["tl"] = "00:00:46:47",
+				["c"] = "Northshire Valley",
+				["t"] = "Brotherhood of Thieves",
+				["i"] = {
+					[1] = {
+						["t"] = "Interface\\Icons\\INV_Weapon_ShortBlade_05",
+						["l"] = "|cffffffff|Hitem:2224:0:0:0|h[Militia Dagger]|h|r",
+					},
+					[2] = {
+						["t"] = "Interface\\Icons\\INV_Hammer_20",
+						["l"] = "|cffffffff|Hitem:5580:0:0:0|h[Militia Hammer]|h|r",
+					},
+					[3] = {
+						["t"] = "Interface\\Icons\\INV_Sword_04",
+						["l"] = "|cffffffff|Hitem:1161:0:0:0|h[Militia Shortsword]|h|r",
+					},
+					[4] = {
+						["t"] = "Interface\\Icons\\INV_Hammer_15",
+						["l"] = "|cffffffff|Hitem:5579:0:0:0|h[Militia Warhammer]|h|r",
+					},
+					[5] = {
+						["t"] = "Interface\\Icons\\INV_Staff_08",
+						["l"] = "|cffffffff|Hitem:1159:0:0:0|h[Militia Quarterstaff]|h|r",
+					},
+				},
+				["ll"] = 3,
+				["os"] = {
+					[1] = {
+						["t"] = "Red Burlap Bandana: 0/12",
+					},
+				},
+				["l"] = 4,
+				["o"] = "Bring 12 Red Burlap Bandanas to Deputy Willem outside the Northshire Abbey.",
+				["d"] = "Recently, a new group of thieves has been hanging around Northshire.  They call themselves the Defias Brotherhood, and have been seen across the river to the east.\n\nI don't know what they're up to, but I'm sure it's not good!  Bring me the bandanas they wear, and I'll reward you with a weapon.",
+			},
+		},
+	},
+}
+QuestHistory_Flags = nil
+QuestHistory_StatusColors = nil
+QuestHistory_Options = {
+	["levels"] = true,
+}

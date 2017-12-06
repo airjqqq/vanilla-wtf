@@ -1,0 +1,7 @@
+
+BStatsSets = {
+	["showMemory"] = 1,
+	["vis"] = 1,
+	["showLatency"] = 1,
+	["showFPS"] = 1,
+}

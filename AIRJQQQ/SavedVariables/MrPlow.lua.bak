@@ -1,0 +1,9 @@
+
+MrPlowDB = {
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+}

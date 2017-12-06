@@ -1,0 +1,12 @@
+MACRO 2 "/addons config" Spell_Fire_SunKey
+/luna menu
+/align
+/bongos
+/questie options
+/samuel lock
+END
+MACRO 1 "1" Ability_Ambush
+END
+MACRO 3 "test " Ability_CheapShot
+/dump AceLibrary("Babble-Spell-2.2")
+END

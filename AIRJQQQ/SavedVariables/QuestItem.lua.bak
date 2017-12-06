@@ -1,0 +1,11 @@
+
+QuestItems = {
+}
+QuestItem_Settings = {
+	["Enabled"] = true,
+	["version"] = "",
+	["DisplayRequest"] = false,
+	["ShiftOpen"] = false,
+	["Alert"] = true,
+	["AltOpen"] = true,
+}

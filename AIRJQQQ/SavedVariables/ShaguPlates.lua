@@ -1,0 +1,22 @@
+
+pfNameplates_config = {
+	["clickthreshold"] = ".5",
+	["showhp"] = "1",
+	["rightclick"] = "1",
+	["heightcast"] = "12",
+	["fontsize"] = "12",
+	["friendclassc"] = "1",
+	["raidiconsize"] = "16",
+	["clickthrough"] = "0",
+	["heighthealth"] = "12",
+	["players"] = "0",
+	["blueshaman"] = "1",
+	["spellname"] = "1",
+	["showcastbar"] = "1",
+	["width"] = "160",
+	["vpos"] = "-10",
+	["showdebuffs"] = "1",
+	["critters"] = "0",
+	["enemyclassc"] = "1",
+	["overlap"] = "1",
+}

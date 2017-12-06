@@ -1,0 +1,32 @@
+
+VanillaGuideDBPC = {
+	["global"] = {
+		["GuideValues"] = {
+			["Step"] = 8,
+		},
+		["CharInfo"] = {
+			["Race"] = "Undead",
+			["Faction"] = "Horde",
+			["CharName"] = "Airage",
+			["RealmName"] = "Lightbringer",
+			["Class"] = "Warrior",
+		},
+		["UI"] = {
+			["MainFrameAnchor"] = {
+				["sTo"] = "TOPLEFT",
+				["nX"] = 660.8000937725827,
+				["sFrom"] = "TOPLEFT",
+				["nY"] = -248.5333301966386,
+			},
+			["MainFrameSize"] = {
+				["nWidth"] = 320.0000043767834,
+				["nHeight"] = 320.0000043767834,
+			},
+		},
+		["MetaMap"] = {
+			["BWPPresence"] = true,
+			["Presence"] = true,
+			["NotesPresence"] = true,
+		},
+	},
+}

@@ -1,0 +1,3 @@
+
+TTData = nil
+TTActiveTotems = nil

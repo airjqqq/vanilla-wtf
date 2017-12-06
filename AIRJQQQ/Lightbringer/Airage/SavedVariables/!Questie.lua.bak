@@ -1,0 +1,199 @@
+
+QuestieSeenQuests = {
+	[3048206458] = 0,
+	[3722507736] = 0,
+	[2065731896] = 0,
+	[1919454274] = 0,
+	[1081116338] = 0,
+	[2590765442] = 0,
+	[2167072298] = 0,
+	[4170531258] = 0,
+	[3365189170] = 0,
+	[2890895202] = 0,
+	[3761438154] = 0,
+	[1450168496] = 0,
+}
+QuestieCachedQuests = {
+	[3048206458] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = " : 0/1",
+		},
+		["logId"] = 9,
+		["leaderboards"] = 1,
+		["questName"] = "Counterattack!",
+		["level"] = 20,
+		["tracked"] = false,
+		["questTag"] = "Elite",
+	},
+	[3722507736] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = "Root Sample: 1/8",
+		},
+		["leaderboards"] = 1,
+		["questName"] = "Root Samples",
+		["level"] = 16,
+		["logId"] = 2,
+		["tracked"] = false,
+	},
+	[2167072298] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = " : 0/60",
+		},
+		["leaderboards"] = 1,
+		["questName"] = "Consumed by Hatred",
+		["level"] = 20,
+		["logId"] = 8,
+		["tracked"] = false,
+	},
+	[1919454274] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = " : 0/1",
+		},
+		["logId"] = 7,
+		["objective2"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = " : 0/1",
+		},
+		["objective3"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = " : 0/1",
+		},
+		["questName"] = "The Warsong Reports",
+		["level"] = 19,
+		["tracked"] = false,
+		["leaderboards"] = 3,
+	},
+	[1081116338] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "monster",
+			["desc"] = "Find Mankrik's Wife: 0/1",
+		},
+		["leaderboards"] = 1,
+		["questName"] = "Lost in Battle",
+		["level"] = 20,
+		["logId"] = 11,
+		["tracked"] = false,
+	},
+	[3365189170] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = " : 0/1",
+		},
+		["leaderboards"] = 1,
+		["questName"] = "Serena Bloodfeather",
+		["level"] = 20,
+		["logId"] = 12,
+		["tracked"] = false,
+	},
+	[2065731896] = {
+		["tracked"] = false,
+		["questName"] = "Ziz Fizziks",
+		["level"] = 21,
+		["leaderboards"] = 0,
+		["logId"] = 13,
+	},
+	[4170531258] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = " : 0/1",
+		},
+		["logId"] = 4,
+		["leaderboards"] = 1,
+		["questName"] = "A Recipe For Death",
+		["level"] = 15,
+		["tracked"] = false,
+		["questTag"] = "Elite",
+	},
+	[3761438154] = {
+		["tracked"] = false,
+		["isComplete"] = 1,
+		["questName"] = "Until Death Do Us Part",
+		["level"] = 15,
+		["leaderboards"] = 0,
+		["logId"] = 15,
+	},
+	[2890895202] = {
+		["tracked"] = false,
+		["questName"] = "Speak with Ruga",
+		["level"] = 20,
+		["leaderboards"] = 0,
+		["logId"] = 17,
+	},
+	[2590765442] = {
+		["tracked"] = false,
+		["questName"] = "Jorn Skyseer",
+		["level"] = 18,
+		["leaderboards"] = 0,
+		["logId"] = 6,
+	},
+	[1450168496] = {
+		["objective1"] = {
+			["notes"] = {
+			},
+			["type"] = "item",
+			["desc"] = " : 0/15",
+		},
+		["leaderboards"] = 1,
+		["questName"] = "Deepmoss Spider Eggs",
+		["level"] = 20,
+		["logId"] = 10,
+		["tracked"] = false,
+	},
+}
+QuestieConfig = {
+	["trackerAlpha"] = 0.6,
+	["alwaysShowObjectives"] = true,
+	["maxShowLevel"] = 7,
+	["showToolTips"] = true,
+	["clusterQuests"] = true,
+	["getVersion"] = 3.7,
+	["showMapNotes"] = true,
+	["boldColors"] = false,
+	["arrowEnabled"] = true,
+	["trackerScale"] = 1,
+	["trackerMinimize"] = false,
+	["trackerBackground"] = false,
+	["trackerEnabled"] = true,
+	["trackerList"] = false,
+	["showProfessionQuests"] = false,
+	["showTrackerHeader"] = false,
+	["maxLevelFilter"] = true,
+	["minLevelFilter"] = true,
+	["minShowLevel"] = 4,
+	["resizeWorldmap"] = false,
+	["corpseArrow"] = true,
+	["minimapButton"] = true,
+	["hideMinimapIcons"] = false,
+}
+QuestieTrackerVariables = {
+	["position"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "CENTER",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 0,
+		["xOfs"] = 0,
+	},
+}
+QuestieMinimapPosition = -90

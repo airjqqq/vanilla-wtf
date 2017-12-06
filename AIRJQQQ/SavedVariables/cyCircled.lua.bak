@@ -1,0 +1,9 @@
+
+cyCircledDB = {
+	["profiles"] = {
+		["Default"] = {
+			["detachedTooltip"] = {
+			},
+		},
+	},
+}

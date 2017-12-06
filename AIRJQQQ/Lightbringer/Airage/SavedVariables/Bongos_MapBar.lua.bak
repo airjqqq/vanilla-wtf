@@ -1,0 +1,6 @@
+
+BMapBarSets = {
+	["vis"] = 1,
+}
+BQWatchBarSets = nil
+BQTimerBarSets = nil

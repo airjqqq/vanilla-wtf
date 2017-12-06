@@ -1,0 +1,19 @@
+
+ChatSueyDB = {
+	["Config"] = {
+		["Timestamps"] = {
+			["ChatFrame2"] = {
+				["includeSeconds"] = false,
+				["use24HourClock"] = true,
+				["color"] = "ffffffff",
+				["useConsistentColor"] = false,
+			},
+			["ChatFrame1"] = {
+				["includeSeconds"] = false,
+				["use24HourClock"] = true,
+				["color"] = "ffffffff",
+				["useConsistentColor"] = false,
+			},
+		},
+	},
+}

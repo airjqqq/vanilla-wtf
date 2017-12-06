@@ -1,0 +1,21 @@
+
+QuestieSeenQuests = {
+	[2422200749] = 0,
+	[1636541813] = 0,
+}
+QuestieCachedQuests = nil
+QuestieConfig = {
+	["AlwaysShowDistance"] = false,
+	["AlwaysShowLevel"] = true,
+	["ArrowEnabled"] = true,
+}
+QuestieTrackerVariables = {
+	["position"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "CENTER",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 0,
+		["xOfs"] = 0,
+	},
+}
+QuestieMinimapPosition = -90
