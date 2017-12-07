@@ -12,8 +12,8 @@ MBB_Options = {
 	["CollapseTimeout"] = 1,
 	["AttachToMinimap"] = 0,
 	["ButtonPos"] = {
-		[1] = 1436.190117346348,
-		[2] = -18.22217495904117,
+		[1] = 1304.100477267705,
+		[2] = -6.530429893813082,
 	},
 	["ExpandDirection"] = 1,
 }

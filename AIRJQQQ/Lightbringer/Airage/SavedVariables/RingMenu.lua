@@ -9,8 +9,8 @@ RingMenu_settings = {
 	["angleOffset"] = 0,
 	["colorB"] = 0,
 	["colorG"] = 0,
-	["colorR"] = 0,
-	["startPageID"] = 13,
-	["numButtons"] = 12,
 	["animationSpeedClose"] = 3,
+	["numButtons"] = 12,
+	["startPageID"] = 13,
+	["colorR"] = 0,
 }
