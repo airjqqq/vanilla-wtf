@@ -2,14 +2,18 @@
 WeaponRebuffDB = {
 	["currentProfile"] = {
 		["Airage of Lightbringer"] = "char",
+		["Aireld of Darrowshire"] = "char",
+	},
+	["profiles"] = {
+		["char/Airage of Lightbringer"] = {
+		},
 	},
 	["chars"] = {
 		["Airage of Lightbringer"] = {
 			["notFirstTime"] = true,
 		},
-	},
-	["profiles"] = {
-		["char/Airage of Lightbringer"] = {
+		["Aireld of Darrowshire"] = {
+			["notFirstTime"] = true,
 		},
 	},
 }

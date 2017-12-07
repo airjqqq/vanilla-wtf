@@ -9,11 +9,11 @@ BuffaloDB = {
 			["scale"] = {
 				["debuff"] = 2.000000476837158,
 			},
-			["cols"] = {
-				["buff"] = 16,
-			},
 			["flashes"] = {
 				["debuff"] = false,
+			},
+			["cols"] = {
+				["buff"] = 16,
 			},
 			["whiteTimers"] = {
 				["debuff"] = true,

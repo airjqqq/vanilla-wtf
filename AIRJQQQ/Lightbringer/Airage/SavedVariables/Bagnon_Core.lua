@@ -1,6 +1,37 @@
 
 BagnonSets = {
+	["qualityBorders"] = 1,
+	["showBagsAtAH"] = 1,
+	["showForeverTooltips"] = 1,
+	["showBankAtBank"] = 1,
+	["showTooltips"] = 1,
+	["Banknon"] = {
+		["parentScale"] = 0.9300000071525574,
+		["scale"] = 1,
+		["bags"] = {
+			[1] = -1,
+			[2] = 5,
+			[3] = 6,
+			[4] = 7,
+			[5] = 8,
+			[6] = 9,
+			[7] = 10,
+		},
+		["left"] = 4,
+		["stayOnScreen"] = 1,
+		["bagsShown"] = 1,
+		["bg"] = {
+			["a"] = 1,
+			["r"] = 0,
+			["g"] = 0,
+			["b"] = 0,
+		},
+		["top"] = 494.9032339026184,
+	},
+	["version"] = "6.10.22",
+	["showBagsAtBank"] = 1,
 	["Bagnon"] = {
+		["strata"] = 2,
 		["parentScale"] = 0.9300000071525574,
 		["scale"] = 1,
 		["bags"] = {
@@ -11,7 +42,7 @@ BagnonSets = {
 			[5] = 4,
 			[6] = -2,
 		},
-		["left"] = 768.0754032231316,
+		["left"] = 640.1903463068258,
 		["stayOnScreen"] = 1,
 		["space"] = 3,
 		["bg"] = {
@@ -20,13 +51,6 @@ BagnonSets = {
 			["g"] = 0,
 			["b"] = 0,
 		},
-		["top"] = 648.4372565200565,
+		["top"] = 643.2760135655664,
 	},
-	["showBagsAtAH"] = 1,
-	["showForeverTooltips"] = 1,
-	["showBankAtBank"] = 1,
-	["showTooltips"] = 1,
-	["version"] = "6.10.22",
-	["showBagsAtBank"] = 1,
-	["qualityBorders"] = 1,
 }

@@ -120,4 +120,22 @@ WIM_Filters = {
 	["^YOU HAVE THE PLAGUE!"] = "Ignore",
 }
 WIM_History = {
+	["Efidierx"] = {
+		[1] = {
+			["type"] = 2,
+			["time"] = "22:11",
+			["from"] = "Airage",
+			["date"] = "12/06/17",
+			["msg"] = "刚才掉线了",
+			["stamp"] = 1512569491,
+		},
+		[2] = {
+			["type"] = 2,
+			["time"] = "22:11",
+			["from"] = "Airage",
+			["date"] = "12/06/17",
+			["msg"] = "你还打吗.",
+			["stamp"] = 1512569498,
+		},
+	},
 }

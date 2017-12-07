@@ -2,8 +2,15 @@
 VanillaGuideDBPC = {
 	["global"] = {
 		["GuideValues"] = {
-			["GuideID"] = 12,
-			["Step"] = 18,
+			["GuideID"] = 15,
+			["Step"] = 9,
+		},
+		["CharInfo"] = {
+			["Race"] = "Undead",
+			["Faction"] = "Horde",
+			["CharName"] = "Airage",
+			["RealmName"] = "Lightbringer",
+			["Class"] = "Warrior",
 		},
 		["UI"] = {
 			["StepFrameColor"] = {
@@ -14,35 +21,31 @@ VanillaGuideDBPC = {
 			},
 			["MainFrameAnchor"] = {
 				["sTo"] = "TOPLEFT",
-				["nX"] = 998.4002993719795,
+				["nX"] = 1.333343135504323,
 				["sFrom"] = "TOPLEFT",
-				["nY"] = -524.8006556421422,
+				["nY"] = -35.28904981470136,
 			},
+			["StepFrameVisible"] = false,
+			["StepScroll"] = 0.35,
 			["ScrollFrameColor"] = {
 				["nR"] = 0,
 				["nA"] = 0.7100000083446503,
 				["nB"] = 0,
 				["nG"] = 0,
 			},
-			["ScrollFrameVisible"] = false,
+			["Layer"] = "LOW",
 			["MainFrameSize"] = {
-				["nWidth"] = 320.0000744053165,
-				["nHeight"] = 319.999998010553,
+				["nWidth"] = 324.8889063656279,
+				["nHeight"] = 391.8221784057581,
 			},
-		},
-		["CharInfo"] = {
-			["Race"] = "Undead",
-			["Faction"] = "Horde",
-			["CharName"] = "Airage",
-			["RealmName"] = "Lightbringer",
-			["Class"] = "Warrior",
+			["Scale"] = 1.2,
 		},
 		["MetaMap"] = {
 			["BWPPresence"] = true,
-			["BWPEnable"] = true,
+			["NotesEnable"] = true,
 			["Presence"] = true,
 			["NotesPresence"] = true,
-			["NotesEnable"] = true,
+			["BWPEnable"] = true,
 		},
 	},
 }

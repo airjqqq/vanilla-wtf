@@ -65,15 +65,20 @@ eCastingBar_Saved = {
 			[4] = 1,
 		},
 		["UseFriendlyEnemy"] = 0,
-		["SpellLength"] = -1,
-		["FeignDeathColor"] = {
+		["SpellColor"] = {
 			[1] = 1,
 			[2] = 0.7,
 			[3] = 0,
 			[4] = 1,
 		},
+		["TimeColor"] = {
+			[1] = 1,
+			[2] = 1,
+			[3] = 1,
+			[4] = 1,
+		},
 		["MirrorShowTime"] = 1,
-		["FailedColor"] = {
+		["DelayColor"] = {
 			[1] = 1,
 			[2] = 0,
 			[3] = 0,
@@ -86,32 +91,27 @@ eCastingBar_Saved = {
 			[3] = 1,
 			[4] = 1,
 		},
-		["MirrorEnabled"] = 1,
 		["MirrorFlashBorderColor"] = {
 			[1] = 1,
 			[2] = 0.88,
 			[3] = 0.25,
 			[4] = 1,
 		},
+		["MirrorEnabled"] = 1,
 		["Height"] = 30,
-		["DelayColor"] = {
+		["FailedColor"] = {
 			[1] = 1,
 			[2] = 0,
 			[3] = 0,
 			[4] = 1,
 		},
-		["TimeColor"] = {
-			[1] = 1,
-			[2] = 1,
-			[3] = 1,
-			[4] = 1,
-		},
-		["SpellColor"] = {
+		["FeignDeathColor"] = {
 			[1] = 1,
 			[2] = 0.7,
 			[3] = 0,
 			[4] = 1,
 		},
+		["SpellLength"] = -1,
 	},
 }
 eCastingBar_Settings = {

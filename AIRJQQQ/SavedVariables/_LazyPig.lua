@@ -31,6 +31,6 @@ LPCONFIG = {
 	["WORLDBG"] = false,
 	["GREEN"] = 2,
 	["HPLATE"] = false,
-	["NOSAVE"] = false,
+	["NOSAVE"] = "Lightbringer",
 }
 LPMULTIBOX = nil

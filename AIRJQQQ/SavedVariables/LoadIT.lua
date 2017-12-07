@@ -2,6 +2,8 @@
 LoadITcf = {
 	["TTdetails"] = 1,
 	["Characters"] = {
+		["Darrowshire:Aireld"] = {
+		},
 		["Lightbringer:Airect"] = {
 		},
 		["Lightbringer:Airage"] = {
@@ -10,15 +12,15 @@ LoadITcf = {
 	["Sets"] = {
 	},
 	["Verbose"] = 1,
-	["TTbuttons"] = 1,
-	["BTReloadUI"] = 1,
-	["ShortcutMenu"] = 1,
 	["Classes"] = {
 		["Warrior"] = {
 		},
 	},
+	["BTReloadUI"] = 1,
+	["ShortcutMenu"] = 1,
 	["Position"] = {
 		["y"] = 0,
 		["x"] = 0,
 	},
+	["TTbuttons"] = 1,
 }

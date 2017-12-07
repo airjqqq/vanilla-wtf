@@ -2,7 +2,7 @@
 LunaDB = {
 	["profiles"] = {
 		["Default"] = {
-			["minimapPosition"] = 8.877661231049142,
+			["minimapPosition"] = 359.9942684760738,
 			["texture"] = "Armory",
 			["RangePolRate"] = 1.5,
 			["detachedTooltip"] = {
@@ -359,5 +359,7 @@ LunaDB = {
 }
 LunaBuffDB = {
 	["Airage of Lightbringer"] = {
+	},
+	["Aireld of Darrowshire"] = {
 	},
 }

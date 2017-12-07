@@ -19,20 +19,21 @@ SM_EXTEND = {
 }
 SM_ACTION_SUPER = {
 	["Airage of Lightbringer"] = {
-		[47] = "/packup",
-		[80] = "thunder",
-		[53] = "combat",
-		[28] = "start",
 		[29] = "start",
 		[59] = "swap",
+		[30] = "stop",
 		[31] = "auto",
 		[32] = "autoLoop",
 		[35] = "focus",
 		[19] = "dump",
 		[20] = "dump",
-		[55] = "defensive",
+		[81] = "ham",
 		[83] = "thunder",
-		[30] = "stop",
+		[47] = "/packup",
+		[53] = "combat",
+		[55] = "defensive",
+		[28] = "start",
+		[80] = "thunder",
 	},
 	["Airect of Lightbringer"] = {
 		[81] = " ",
@@ -40,6 +41,8 @@ SM_ACTION_SUPER = {
 		[48] = "2",
 	},
 	["Airarge of Lightbringer"] = {
+	},
+	["Aireld of Darrowshire"] = {
 	},
 	["Aitest of Lightbringer"] = {
 	},
@@ -52,8 +55,13 @@ SM_SUPER = {
 	},
 	["combat"] = {
 		[1] = "combat",
-		[2] = "Interface\\Icons\\Ability_Warrior_OffensiveStance",
-		[3] = "/run sa()\n/run if not stance(1) then cast(\"Battle Stance\") end\n/run if cd(\"Charge\")<1 and inrange(\"Charge\") then cast(\"Charge\") end\n/run if cd(\"Overpower\")<1 and useable(\"MeleeDamage\") then cast(\"Overpower\") end\n/run local bl = playerBuff(\"_BattleShout\") if (not bl or bl < 10) then cast(\"Battle Shout\") end\n/run if (not debuff(\"_Gouge\")) and health(\"target\")>0.8 then cast(\"Rend\") end\n/run if(mana()>34)then cast(\"Heroic Strike\") end",
+		[2] = "Interface\\ICONS\\Ability_Warrior_OffensiveStance",
+		[3] = "/run sa()\n/run if not stance(1) then cast(\"Battle Stance\") end\n/run if cd(\"Charge\")<1 and inrange(\"Charge\") then cast(\"Charge\") end\n/run if cd(\"Overpower\")<1 and useable(\"MeleeDamage\") then cast(\"Overpower\") end\n/run if health(\"target\") < 0.2 then cast(\"Execute\") end\n/run local bl = playerBuff(\"_BattleShout\") if (not bl or bl < 10) then cast(\"Battle Shout\") end\n/run -- if (not debuff(\"_Gouge\")) and health(\"target\")>0.4 then cast(\"Rend\") end\n/run if(mana()>30)then cast(\"Heroic Strike\") end",
+	},
+	["ham"] = {
+		[1] = "ham",
+		[2] = "Interface\\Icons\\Ability_Druid_CatFormAttack",
+		[3] = "/run if mana()>9 then cast(\"Hamstring\") end",
 	},
 	["defensive"] = {
 		[1] = "defensive",
@@ -63,7 +71,7 @@ SM_SUPER = {
 	["thunder"] = {
 		[1] = "thunder",
 		[2] = "Interface\\Icons\\Spell_Shadow_RainOfFire",
-		[3] = "/run if cd(\"Charge\")<1 and inrange(\"Charge\") and not combat() then cast(\"Charge\")  end\n/run cast(\"Combat Stance\") cast(\"Thunder Clap\")",
+		[3] = "/run if cd(\"Charge\")<1 and inrange(\"Charge\") and not combat() then cast(\"Charge\")  end\n/run swapStance(1) cast(\"Thunder Clap\")",
 	},
 	["focus"] = {
 		[1] = "focus",

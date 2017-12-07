@@ -200,9 +200,11 @@ DPSMateSettings = {
 			["options"] = {
 				[1] = {
 					["auraslost"] = false,
-					["dps"] = false,
+					["damagetaken"] = true,
 					["ccbreaker"] = false,
-					["damage"] = true,
+					["healing"] = false,
+					["dps"] = false,
+					["damage"] = false,
 				},
 				[2] = {
 					["currentfight"] = false,
@@ -268,7 +270,7 @@ DPSMateSettings = {
 				[2] = 167.0000018464555,
 			},
 			["barspacing"] = 1,
-			["CurMode"] = "damage",
+			["CurMode"] = "damagetaken",
 			["grouponly"] = true,
 			["titlebar"] = true,
 			["titlebarreport"] = true,
